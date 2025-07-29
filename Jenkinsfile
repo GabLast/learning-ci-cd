@@ -50,7 +50,7 @@ pipeline {
                     withCredentials([string(credentialsId: 'DOCKER-TOKEN', variable: 'token'), usernamePassword(credentialsId: 'DOCKER_CREDENTIALS', passwordVariable: 'password', usernameVariable: 'username')]) {
                         bat 'echo %token% | docker login -u %username% --password-stdin'
                         bat """
-                        'docker tag %username%/${DOCKER_IMAGE}:${APP_VERSION} %username%/${DOCKER_IMAGE}:latest'
+                        docker tag %username%/${DOCKER_IMAGE}:${APP_VERSION} %username%/${DOCKER_IMAGE}:latest
                         """
                         bat """
                         docker push %username%/${DOCKER_IMAGE}:${APP_VERSION}
