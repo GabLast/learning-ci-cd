@@ -46,7 +46,7 @@ and put all the data from previous points. Also add the original kubeconfig as s
 2. Set payload as jenkinsurl/github-webhook/
 Expose jenkinsurl with a DNS, ngrok or whatever you want
 3. Set content type as json
-4. Select individual events -> releases
+4. Select individual events -> releases and push (for some reason, doesn't work if push is not selected)
 5. Set the GitHub hook trigger for GITScm polling on jenkins:
 
    Default:
