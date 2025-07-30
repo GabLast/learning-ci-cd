@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
 
+    //Object Mapper configuration. Alt option to StringToDateConverter
     @Bean
     public Jackson2ObjectMapperBuilderCustomizer dateCustomizer() {
         return builder -> builder
