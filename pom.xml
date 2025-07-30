@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.showcase.application</groupId>
     <artifactId>spring-boot-backend</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <name>spring-boot-backend</name>
     <description>spring-boot-backend</description>
     <url/>
