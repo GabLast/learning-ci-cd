@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-k8s
-          image: gabmarte/spring-boot-ci-cd-learning:1.0.0
+          image: gabmarte/spring-boot-ci-cd-learning:latest
           ports:
             - containerPort: 8080
 #          env:
