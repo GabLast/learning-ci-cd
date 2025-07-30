@@ -59,6 +59,16 @@ pipeline {
                 }
             }
         }
+
+//         stage('Deploy to Kubernetes') {
+//             steps {
+//                 script {
+//                     withKubeConfig(caCertificate: 'C:\\Users\\last0\\.minikube\\ca.crt', clusterName: 'minikube', contextName: 'minikube', credentialsId: 'K8_CREDENTIALS', namespace: 'k8namespace', restrictKubeConfigAccess: false, serverUrl: 'https://127.0.0.1:64260') {
+//                     }
+//
+//                 }
+//             }
+//         }
     }
 
     post {

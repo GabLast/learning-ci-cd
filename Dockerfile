@@ -28,4 +28,4 @@ RUN mkdir /app # create project directory
 #Getting the files from the "build" instance
 #then package
 COPY --from=build $HOME/target/*.jar /app/app-runner.jar
-ENTRYPOINT ["java", "/app/app-runner.jar"]
+ENTRYPOINT ["java", "-jar", "/app/app-runner.jar"]
