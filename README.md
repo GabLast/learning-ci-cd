@@ -54,6 +54,6 @@ Expose jenkinsurl with a DNS, ngrok or whatever you want
 
    For tags only:
    git repository -> advanced -> name: git repo url
-   git repository -> advanced -> refspec: +refs/tags/v*:refs/remotes/origin/tags/v*
-   Branch Specifier **/tags/v*
+   git repository -> advanced -> refspec: '+refs/tags/v*:refs/remotes/origin/tags/v*'
+   Branch Specifier -> '**/tags/v*'
    
