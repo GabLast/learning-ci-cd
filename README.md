@@ -1,6 +1,10 @@
 # Guide
 
-## Tutorial Source:
+## Pending
+
+- Trigger build with new version release with GitHub webhook?
+
+## Tutorials Sources:
 - https://www.youtube.com/watch?v=PKcGy9oPVXg&ab_channel=JavaTechie
 - https://www.youtube.com/watch?v=vBoOXP6BkDI&ab_channel=JavaTechie
 - https://www.youtube.com/watch?v=rWrshVbvS_U&ab_channel=iQuant
