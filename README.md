@@ -57,6 +57,3 @@ Expose jenkinsurl with a DNS, ngrok or whatever you want
    git repository -> advanced -> refspec: +refs/tags/v*:refs/remotes/origin/tags/v*
    Branch Specifier **/tags/v*
    
-   For releases:
-   +refs/releases/tags/v*:refs/remotes/origin/tags/v*
-   **/releases/tags/v*
