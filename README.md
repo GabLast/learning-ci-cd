@@ -56,4 +56,6 @@ Expose jenkinsurl with a DNS, ngrok or whatever you want
    git repository -> advanced -> name: git repo url
    git repository -> advanced -> refspec: '+refs/tags/v*:refs/remotes/origin/tags/v*'
    Branch Specifier -> '**/tags/v*'
-   
+
+   While it will trigger on every push due to step 4, build will fail when adding the previous refspec
+   if the tag doesn't exist
